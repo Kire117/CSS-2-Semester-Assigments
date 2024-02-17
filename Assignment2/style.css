@@ -1,0 +1,49 @@
+*{
+    
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Song{
+    background-color: darkgray;
+    text-align: start;
+
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    text-align: center;  
+}
+
+
+
+.Lyrics{
+    background-image: url("album-cover.jfif");
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Lyrics1{
+    font-style: italic;
+    color: #425d87;
+}
+.Lyrics2{
+    color: #ff0038;
+}
+
+
+
+  
+
+
+
+
+
+
