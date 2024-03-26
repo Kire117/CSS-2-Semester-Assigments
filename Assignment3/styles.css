@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(beige, wheat);
+}
+
+header {
+    background-image: linear-gradient(to right, green , white, red);
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2rem;
+    color: brown;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.intro {
+    margin-bottom: 40px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 5px dashed whitesmoke;
+    padding: 5px;
+}
+
+.gallery img {
+    width: 250px;
+    margin-bottom: 20px;
+    height: 200px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    border: 2px solid white;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input,
+.contact textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.contact button {
+    padding: 8px 15px;
+    background-color: #ffcc00;
+    border: none;
+    color: #333;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #ffc200;
+}
